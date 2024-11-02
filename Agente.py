@@ -3,7 +3,7 @@ from agent import Agente
 import numpy as np
 
 if _name_ == '_main_':
-    #env = gym.make('LunarLander-v2', render_mode='human')
+    env = gym.make('LunarLander-v2', render_mode='human')
     env = gym.make('LunarLander-v2')
     agent = Agent(
         gamma=0.99,          
