@@ -1,5 +1,5 @@
 import gymnasium as gym
-from agent import Agent
+from agent import Agente
 import numpy as np
 
 if _name_ == '_main_':
